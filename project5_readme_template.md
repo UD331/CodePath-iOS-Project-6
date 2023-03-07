@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 Just sign in- https://submissions.us-east-1.linodeobjects.com/ios102/OQC1XkVh.gif
 
-Login and other features- 
+Login and other features- https://submissions.us-east-1.linodeobjects.com/ios102/u-2e0BXI.gif
 
 ## Notes
 
