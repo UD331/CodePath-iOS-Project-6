@@ -21,14 +21,13 @@
 		7447E0F929AC1E9A00BD9204 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447E0F829AC1E9A00BD9204 /* PostViewController.swift */; };
 		7447E0FC29AC1EA100BD9204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447E0FB29AC1EA100BD9204 /* Main.storyboard */; };
 		7447E0FF29AC1EAA00BD9204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447E0FE29AC1EAA00BD9204 /* LaunchScreen.storyboard */; };
-		7447E10229AC1F3500BD9204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447E10129AC1F3500BD9204 /* AppDelegate.swift */; };
-		7447E10529AC1F9800BD9204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447E10429AC1F9800BD9204 /* SceneDelegate.swift */; };
+		74D849B129B54BE900818E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D849B029B54BE900818E67 /* AppDelegate.swift */; };
+		74D849B429B54BF600818E67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D849B329B54BF600818E67 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7447E0B829AC1CFC00BD9204 /* br 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "br 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7447E0C429AC1CFD00BD9204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7447E0DC29AC1E2700BD9204 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/lab-insta-parse 2/lab-insta-parse/Info.plist"; sourceTree = "<group>"; };
 		7447E0DF29AC1E2F00BD9204 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7447E0E229AC1E3B00BD9204 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7447E0E529AC1E4C00BD9204 /* Filmotype-Jade.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Filmotype-Jade.otf"; sourceTree = "<group>"; };
@@ -41,8 +40,9 @@
 		7447E0F829AC1E9A00BD9204 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		7447E0FB29AC1EA100BD9204 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7447E0FE29AC1EAA00BD9204 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7447E10129AC1F3500BD9204 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/lab-insta-parse 2/lab-insta-parse/AppDelegate.swift"; sourceTree = "<group>"; };
-		7447E10429AC1F9800BD9204 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Downloads/lab-insta-parse 2/lab-insta-parse/SceneDelegate.swift"; sourceTree = "<group>"; };
+		74D849AD29B54BE000818E67 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D849B029B54BE900818E67 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74D849B329B54BF600818E67 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +77,9 @@
 		7447E0BA29AC1CFC00BD9204 /* br 2 */ = {
 			isa = PBXGroup;
 			children = (
-				7447E10129AC1F3500BD9204 /* AppDelegate.swift */,
-				7447E10429AC1F9800BD9204 /* SceneDelegate.swift */,
-				7447E0DC29AC1E2700BD9204 /* Info.plist */,
+				74D849B329B54BF600818E67 /* SceneDelegate.swift */,
+				74D849AD29B54BE000818E67 /* Info.plist */,
+				74D849B029B54BE900818E67 /* AppDelegate.swift */,
 				7447E0DF29AC1E2F00BD9204 /* LoginViewController.swift */,
 				7447E0E229AC1E3B00BD9204 /* SignUpViewController.swift */,
 				7447E0E529AC1E4C00BD9204 /* Filmotype-Jade.otf */,
@@ -175,17 +175,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7447E10229AC1F3500BD9204 /* AppDelegate.swift in Sources */,
+				74D849B129B54BE900818E67 /* AppDelegate.swift in Sources */,
 				7447E0E329AC1E3B00BD9204 /* SignUpViewController.swift in Sources */,
 				7447E0E029AC1E2F00BD9204 /* LoginViewController.swift in Sources */,
 				7447E0F029AC1E7300BD9204 /* DateFormatter+Extensions.swift in Sources */,
 				7447E0F329AC1E8900BD9204 /* Post.swift in Sources */,
 				7447E0F929AC1E9A00BD9204 /* PostViewController.swift in Sources */,
 				7447E0EA29AC1E6000BD9204 /* FeedViewController.swift in Sources */,
+				74D849B429B54BF600818E67 /* SceneDelegate.swift in Sources */,
 				7447E0F629AC1E8F00BD9204 /* User.swift in Sources */,
 				7447E0ED29AC1E6C00BD9204 /* ViewController+Extensions.swift in Sources */,
 				7447E0E729AC1E5600BD9204 /* PostCell.swift in Sources */,
-				7447E10529AC1F9800BD9204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
